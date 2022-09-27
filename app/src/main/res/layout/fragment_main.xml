@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Controller.Fragment.MainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/monBouttonHappy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show happy details"
+        android:textSize="20dp"
+        android:tag="10"
+        android:layout_margin="8dp"
+        />
+    <Button
+        android:id="@+id/monBouttonSad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show sad detail"
+        android:textSize="20dp"
+        android:layout_margin="8dp"
+        android:tag="20"/>
+    <Button
+        android:id="@+id/monBouttonHorrible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Show Horrible details"
+        android:layout_margin="8dp"
+        android:tag="30"/>
+
+</LinearLayout>
